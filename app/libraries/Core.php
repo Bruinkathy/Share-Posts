@@ -51,6 +51,9 @@
         $url = filter_var($url, FILTER_SANITIZE_URL);
         $url = explode('/', $url);
         return $url;
+      // } else {
+      //   $pages=['Pages'];
+      //   return $pages;
       }
     }
   } 
